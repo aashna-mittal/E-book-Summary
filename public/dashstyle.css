@@ -1,0 +1,167 @@
+/* Reset some default browser styles */
+body, h1, h2, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: cursive;
+    font-size: 18px; /* Increased from default size */
+    color: #333;
+    line-height: 1.7; /* Increased line height for better readability */
+    background-color: #f4f4f4; /* Light background */
+}
+
+/* Styling for the Navbar */
+.navbar {
+    background-color: rgb(179, 60, 179); /* Purple background */
+    overflow: hidden;
+    border-bottom: 3px solid #333; /* Dark border */
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #555; /* Darker hover background */
+    color: #fff; /* White text */
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropdown-btn {
+    cursor: pointer;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: inherit;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333; /* Dark background */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: #fff; /* White text */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(179, 60, 179); /* Purple hover */
+    color: #fff; /* White text */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Book Styling */
+.content {
+    padding: 20px;
+}
+
+.book-row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+/* Style for book titles */
+.book-title {
+    font-size: 1.2em; /* Slightly larger font size for book title */
+    font-weight: bold; /* Bold font for title */
+    color: #333; /* Darker color for the title */
+    margin: 10px 0 5px; /* Adjusting margin */
+    text-align: center; /* Center alignment */
+}
+
+/* Style for author names */
+.book-author {
+    font-size: 1em; /* Normal font size for author */
+    color: #777; /* Gray color for author name */
+    margin-bottom: 15px; /* Adding space below the author name */
+    text-align: center; /* Center alignment */
+}
+
+/* Adding styles for book images */
+.book {
+    text-align: center;
+}
+
+.book img {
+    width: 200px;
+    height: 300px;
+    border: 5px solid #f2f2f2;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for book image */
+.book img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    border-color: #ddd;
+}
+
+.book p {
+    font-size: 1.1em; /* Slightly larger font for book titles */
+    margin-top: 10px;
+    color: #333;
+}
+
+/* Welcome Paragraph */
+.para {
+    padding: 25px; /* Added more padding */
+    background-color: #ecf0f1; /* Light background */
+    border-radius: 10px;
+    font-size: 1.2em; /* Increased text size */
+    color: #333;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    line-height: 1.8;
+}
+
+/* Heading for Popular Novels */
+.popular {
+    color: rgb(179, 60, 179); /* Purple heading */
+    font-size: 2em; /* Larger font size */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Extra styles for better spacing and layout */
+h2 {
+    color: rgb(86, 86, 136); /* Dark blue-purple for section headers */
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    font-size: 1.1em; /* Increased font size */
+}

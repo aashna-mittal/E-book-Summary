@@ -1,0 +1,188 @@
+/* Reset some default browser styles */
+body, h1, h2, p, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'cursive';
+    color: #333;
+    line-height: 1.6;
+    background-color: #f0f0f5; /* Subtle background color */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 0 20px; /* Add some padding around the body */
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(179, 60, 179);
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+    border-radius: 0 0 10px 10px; /* Rounded bottom corners */
+}
+
+header .logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+header nav a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+header nav a:hover {
+    background-color: #555;
+    transform: translateY(-3px); /* Slight lift on hover */
+}
+
+/* Main section styles */
+main {
+    flex: 1;
+    padding: 20px;
+    background-color: #f4f4f4;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1); /* Add shadow to main content */
+}
+
+/* Hero section styles */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to right, rgb(86, 86, 136), rgb(179, 60, 179));
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow to hero section */
+    margin-bottom: 40px;
+}
+
+.hero h1 {
+    font-size: 2.8em;
+    margin-bottom: 20px;
+    text-transform: uppercase; /* Make heading uppercase */
+    letter-spacing: 2px;
+}
+
+.hero p {
+    font-size: 1.4em;
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.note {
+    color:brown;
+    font-style: italic; /* Make note text italic */
+    font-size: medium;
+    background-color: rgba(255, 255, 255, 0.2); /* Slight transparency */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* About section styles */
+.about {
+    padding: 40px 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+/* Styles for the mission paragraph */
+.mission {
+    font-size: 1.4em; /* Increase the font size */
+    font-weight: bold; /* Make the text bold */
+    line-height: 1.8; /* Increase line height for readability */
+    text-align: center; /* Center the paragraph */
+    margin: 30px 0; /* Add space above and below the paragraph */
+    padding: 20px; /* Add padding for better spacing */
+    background-color: #f8f8f8; /* Light background for contrast */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+/* Styles for the intro section */
+.intro {
+    font-size: 1.4em; /* Slightly larger font size */
+    font-weight: bold; /* Make the text bold */
+    line-height: 1.8; /* Increase line height for readability */
+    text-align: center; /* Center the paragraph */
+    margin: 30px 0; /* Add margin for spacing */
+    padding: 20px; /* Add padding for spacing */
+    background-color: #f8f8f8; /* Light background for contrast */
+    border-radius: 10px; /* Rounded corners for a clean look */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+
+.about p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    line-height: 1.8; /* Slightly increase line height for better readability */
+    text-align: justify; /* Justify text for cleaner appearance */
+}
+
+/* Creator section styles */
+.creator-info {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.creator-photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.creator-details {
+    max-width: 600px;
+}
+
+.creator-details h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.creator-details p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.creator-details a {
+    color: rgb(179, 60, 179);
+    text-decoration: none;
+}
+
+.creator-details a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 40px;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
